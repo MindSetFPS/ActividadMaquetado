@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/htmx.org@2.0.0"
+        integrity="sha384-wS5l5IKJBvK6sPTKa2WZ1js3d947pvWXbPJ1OmWfEuxLgeHcEbjUUA5i9V5ZkpCw"
+        crossorigin="anonymous"></script>
+    <title>Online Shop</title>
+</head>
+
+<body>
+    <div class="container mx-auto px-64">
+        <div class="grid grid-cols-4 gap-4 text-center uppercase">
+            <a href="/product/1"
+                class="w-64 m-4 content-end px-2 py-2 rounded-md hover:ring hover:scale-105 transition">
+                <img class="h-56 object-contain"
+                    src="https://farmaciasleyva.com/cdn/shop/products/7501011167650.jpg?v=1701904143" alt="" />
+                <p class="hover:underline hover:text-sky-400 font-bold text-xl">Sabritas</p>
+                <p class="text-gray-500 text-sm">$25.00</p>
+                <form action="/add_to_cart/1/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken"
+                        value="f654KiDO18FHkhiwahKnjtJJaOZgVl0uhQnwjsQpbh7FLtnvMWrpl00jENlwIG0t">
+                </form>
+            </a>
+
+            <a href="/product/3"
+                class="w-64 m-4 content-end px-2 py-2 rounded-md hover:ring hover:scale-105 transition">
+                <img class="h-56 object-contain"
+                    src="https://www.soriana.com/dw/image/v2/BGBD_PRD/on/demandware.static/-/Sites-soriana-grocery-master-catalog/default/dw1b9ba4cc/images/product/7501039121610_A.jpg?sw=445&amp;sh=445&amp;sm=fit"
+                    alt="" />
+                <p class="hover:underline hover:text-sky-400 font-bold text-xl">Aceite</p>
+                <p class="text-gray-500 text-sm">$30.00</p>
+                <form action="/add_to_cart/3/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken"
+                        value="f654KiDO18FHkhiwahKnjtJJaOZgVl0uhQnwjsQpbh7FLtnvMWrpl00jENlwIG0t">
+                </form>
+            </a>
+
+            <a href="/product/4"
+                class="w-64 m-4 content-end px-2 py-2 rounded-md hover:ring hover:scale-105 transition">
+                <img class="h-56 object-contain"
+                    src="https://www.coca-cola.com/content/dam/onexp/mx/es/brands/coca-cola/coca-cola-original/Product-Information-Section-Coca-Cola-Original.jpg"
+                    alt="" />
+                <p class="hover:underline hover:text-sky-400 font-bold text-xl">Coca cola</p>
+                <p class="text-gray-500 text-sm">$18.00</p>
+                <form action="/add_to_cart/4/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken"
+                        value="f654KiDO18FHkhiwahKnjtJJaOZgVl0uhQnwjsQpbh7FLtnvMWrpl00jENlwIG0t">
+                </form>
+            </a>
+
+            <a href="/product/10004"
+                class="w-64 m-4 content-end px-2 py-2 rounded-md hover:ring hover:scale-105 transition">
+                <img class="h-56 object-contain"
+                    src="https://gamerhouse.com.mx/cdn/shop/files/VCG409024TFXXPB1-O_922x_19e688b9-1eda-4138-8a02-b96a0296f5ed.jpg?v=1712356287"
+                    alt="" />
+                <p class="hover:underline hover:text-sky-400 font-bold text-xl">RTX 4090</p>
+                <p class="text-gray-500 text-sm">$35000.00</p>
+                <form action="/add_to_cart/10004/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken"
+                        value="f654KiDO18FHkhiwahKnjtJJaOZgVl0uhQnwjsQpbh7FLtnvMWrpl00jENlwIG0t">
+                </form>
+            </a>
+
+            <a href="/product/10005"
+                class="w-64 m-4 content-end px-2 py-2 rounded-md hover:ring hover:scale-105 transition">
+                <img class="h-56 object-contain"
+                    src="https://www.rebeltech.co.za/media/catalog/product/cache/original/a/m/amd-ryzen-9-5950x-vermeer-16-core-3.40ghz-am4_.jpg"
+                    alt="" />
+                <p class="hover:underline hover:text-sky-400 font-bold text-xl">RYZEN 5950X</p>
+                <p class="text-gray-500 text-sm">$7500.00</p>
+                <form action="/add_to_cart/10005/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken"
+                        value="f654KiDO18FHkhiwahKnjtJJaOZgVl0uhQnwjsQpbh7FLtnvMWrpl00jENlwIG0t">
+                </form>
+            </a>
+
+            <a href="/product/10006"
+                class="w-64 m-4 content-end px-2 py-2 rounded-md hover:ring hover:scale-105 transition">
+                <img class="h-56 object-contain"
+                    src="https://assets.adidas.com/images/w_600,f_auto,q_auto/ce738cbe5342421996feaf5001044964_9366/Tenis_Campus_00s_Gris_HQ8707_01_standard.jpg"
+                    alt="" />
+                <p class="hover:underline hover:text-sky-400 font-bold text-xl">Tenis Adidas</p>
+                <p class="text-gray-500 text-sm">$599.00</p>
+                <form action="/add_to_cart/10006/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken"
+                        value="f654KiDO18FHkhiwahKnjtJJaOZgVl0uhQnwjsQpbh7FLtnvMWrpl00jENlwIG0t">
+                </form>
+            </a>
+
+            <a href="/product/10007"
+                class="w-64 m-4 content-end px-2 py-2 rounded-md hover:ring hover:scale-105 transition">
+                <img class="h-56 object-contain"
+                    src="https://m.media-amazon.com/images/I/71n0yloq5JL._AC_UF894,1000_QL80_.jpg" alt="" />
+                <p class="hover:underline hover:text-sky-400 font-bold text-xl">Logitech g305</p>
+                <p class="text-gray-500 text-sm">$777.24</p>
+                <form action="/add_to_cart/10007/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken"
+                        value="f654KiDO18FHkhiwahKnjtJJaOZgVl0uhQnwjsQpbh7FLtnvMWrpl00jENlwIG0t">
+                </form>
+            </a>
+
+            <a href="/product/10008"
+                class="w-64 m-4 content-end px-2 py-2 rounded-md hover:ring hover:scale-105 transition">
+                <img class="h-56 object-contain"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJvfnJ9eOprqlebPS3sdSI_L3PDWfeyI17A&amp;s"
+                    alt="" />
+                <p class="hover:underline hover:text-sky-400 font-bold text-xl">MSI Laptop</p>
+                <p class="text-gray-500 text-sm">$15000.00</p>
+                <form action="/add_to_cart/10008/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken"
+                        value="f654KiDO18FHkhiwahKnjtJJaOZgVl0uhQnwjsQpbh7FLtnvMWrpl00jENlwIG0t">
+                </form>
+            </a>
+
+        </div>
+
+    </div>
+    <script src="/static/django-browser-reload/reload-listener.js"
+        data-worker-script-path="/static/django-browser-reload/reload-worker.js" data-events-path="/__reload__/events/"
+        defer></script>
+</body>
+
+</html>
